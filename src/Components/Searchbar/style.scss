@@ -1,0 +1,33 @@
+$primary_color: #fbc531;
+$text_color:#3498db;
+$heading-animate-color:#0a3d62;
+$icons-color:#0a3d62;
+.search-container{
+    border: 10px solid $text_color;
+    cursor:pointer;
+    display: flexbox;
+    align-items: center;
+    border-radius: 50px;
+    height: 50px;
+    width: 750px;
+    margin-left: 25%;
+    box-shadow: 0 10px 25px #3498db ;
+    animation: fadeInTopLeft 5.5s;
+    .search-bar{
+        border: 0;
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: auto;
+        .search-input{
+            border: none ;
+            outline: none;
+            background: transparent;
+            overflow: hidden;
+            margin-top: 18px;
+            margin-left:10px ;
+            width: 700px;
+        }
+        
+    }
+}

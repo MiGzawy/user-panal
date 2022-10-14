@@ -1,0 +1,22 @@
+$primary_color: #fbc531;
+$text_color:#fff;
+$heading-animate-color:#0a3d62;
+$icons-color:#0a3d62;
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+
+.main-container{
+    border: 0px outset $primary_color;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 10px 10px;
+    margin: 50px 10px;
+    animation: bounceInLeft 5s;
+    .text-container{
+        margin-left: 150px;
+        font-family: 'Alkalami', serif;
+
+    }
+}

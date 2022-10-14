@@ -1,0 +1,45 @@
+$primary_color: #3498db;
+$text_color:#fff;
+$heading-animate-color:#0a3d62;
+$icons-color:#0a3d62;
+.block-container{
+    padding-top: 10px;
+    margin-top: 30px;
+    font-family: 'Alkalami', serif;
+    .block-name{
+        text-align: center;
+        
+        h1{
+            font-weight: 500;
+            font-size: 50px;
+            color:$heading-animate-color;
+            animation: flipInX  6s;
+            
+        }
+        h3{
+            margin: 0;
+            padding: 0;
+            display: block;
+            font-weight: 300;
+            font-size: 25px;
+            color:$primary_color;
+            animation: flipInX  6s;
+        }
+    }
+    .block-items{
+        text-decoration: none;
+        color:$icons-color;
+        font-size: 18px;
+        border: 2px solid;
+        display:table-row;
+        width: 30px;
+        height: 30px;
+        
+        span{
+            margin-left: 15px;
+            padding: 65px;
+            
+            border: 0px solid #fff;
+        }
+    }
+}
