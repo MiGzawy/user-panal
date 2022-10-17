@@ -2,6 +2,10 @@ import React from "react";
 import 'animate.css';
 import "./style.scss"
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAdd, faBars, faDashboard, faFileCircleExclamation, faFolderTree, faHomeLg, faHomeUser, faMarker, faMortarPestle, faObjectGroup, faObjectUngroup, faPalette, faPlaneUp, faRandom, faScaleBalanced, faZap } from "@fortawesome/free-solid-svg-icons";
+import { faAccusoft } from "@fortawesome/free-brands-svg-icons";
+
 // import { Searchbar } from "../Searchbar/Searchbar";
 export const Navbar =()=>{
     return(
@@ -21,7 +25,9 @@ export const Navbar =()=>{
             <NavLink to='/Signin'>
             <span className="heading-signin">Sign in</span>
             </NavLink>
-            
+            <NavLink to='/Signin'>
+            <FontAwesomeIcon icon={faBars} className="search-icon" color='#fff'/>
+            </NavLink>
         </div>
         
     )

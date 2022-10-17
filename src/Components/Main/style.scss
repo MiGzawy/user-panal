@@ -6,6 +6,8 @@ $icons-color:#0a3d62;
 
 
 .main-container{
+    background-image: url('../../assests/images/Home-pic.jpg');
+    display:inline-flex;
     border: 0px outset $primary_color;
     border-radius: 15px;
     width: auto;
@@ -13,10 +15,15 @@ $icons-color:#0a3d62;
     display: flex;
     padding: 10px 10px;
     margin: 50px 10px;
-    animation: bounceInLeft 5s;
+    // animation: bounceInLeft 5s;
     .text-container{
         margin-left: 150px;
         font-family: 'Alkalami', serif;
 
+    }
+    .homePic{
+        margin-left: 100px;
+        width: 1000px;
+        height: 500px;
     }
 }
