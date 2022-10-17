@@ -1,8 +1,6 @@
 import React, { useState , useEffect } from "react";
 import './style.scss'
 import 'animate.css';
-import homePic from '../../assests/images/Home-pic.jpg'
-// import another from '../../assests/images/22062.jpg'
 import AnimatedLetters from '../Animated/index'
 export const Main=()=>{
     const [letterClass, setLetterClass] = useState('main-text');
@@ -36,8 +34,6 @@ export const Main=()=>{
                     idx={10}
                 />
               </h1>
-              {/* <img src={another} className='homePic' /> */}
-              <img src={homePic} className='homePic' />
             </div>
             
         </div>
